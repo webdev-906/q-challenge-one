@@ -1,0 +1,17 @@
+body {
+  background: lightskyblue;
+}
+
+span {
+  color: #fff; 
+  text-shadow: 1px 1px 5px solid
+}
+
+input[type="submit"]{
+  border: none; 
+  width: 120px; 
+  height: 25px; 
+  background-color: #fff;
+  color: #333;
+  border-radius: 5px;
+}

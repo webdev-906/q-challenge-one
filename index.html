@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Quiz Challenge One</title>
+</head>
+<body>
+  <form>
+    <h1><span>Q</span>uiz Challenge <span>O</span>ne</h1>
+    <label for="name">Enter your name:</label>
+    <input type="text" name="name" id="name" >
+    <br/>
+    <br/>
+    <!-- One -->
+    <label for="time">What is the time:</label>
+    <input type="time" name="time" id="time"/>
+    <br />
+    <br />
+    <!-- Two -->
+    <label for="search">Search your favorite word:</label>
+    <input type="search" name="search" id="search"/>
+    <br />
+    <br />
+
+    <!-- Three -->
+    <label>Your coding track:</label>
+    <label> <input type="radio" name="track" value="coding" /> Coding </label>
+    <label> <input type="radio" name="track" value="cyber" /> Cyber </label>
+    <label>
+    <input type="radio" name="track" value="BA" /> Business analyitcs
+    <br />
+    <br />
+    <!--  Four -->
+    <label for="phone">Enter your phone number:</label>
+    <input type="tel" id="phone" name="phone" />
+
+    <br />
+    <br />
+
+    <label for="start">Start date:</label>
+    <input type="date" id="start" name="trip-start" />
+    <br />
+    <br />
+
+    <!-- Five -->
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email" />
+    <br />
+    <br />
+
+    <!-- Six -->
+    <label for="colors">Select Favorite Color:</label>
+    <select>
+      <option value="red">Red</option>
+      <option value="blue">Blue</option>
+      <option value="yellow">Yellow</option>
+    </select>
+    <br />
+    <br />
+
+    <!-- Range -->
+    <label for="program-rating">Scale from 1-10 how do you feel about the program:</label>
+    <br/>
+    <br/>
+  <input type="range" id="program-rating" name="program-rating" min="0" max="10">
+
+  <br/>
+  <br/>
+
+  <label for="animal">Choose your favorite animal:
+    <br/>
+    <input type="image" width="300" height="300" src="images/cat.webp" name="animal" alt="cat"/>
+    <br/>
+    <input type="image" src="images/dog.webp" width="300" height="300" name="animal" alt="dog"/>
+    <br/>
+    <input type="image" src="images/white-horse.webp" width="300" height="300" name="animal" alt="horse"/>
+    <br/>
+  </label>
+  <br/>
+  <br/>
+  <input type="submit" value="Submit"/>
+  </form>
+
+</body>
+</html>
